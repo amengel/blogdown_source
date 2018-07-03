@@ -6,7 +6,7 @@
 baseurl = "https://amengel.github.io/"
 #baseurl = "/"
 
-publishDir = "~/documents/git/amengel.github.io"
+#publishDir = "../amengel.github.io/"
 
 # Title of your site
 title = "Andrew M. Engelhardt"
@@ -180,10 +180,10 @@ enableGitInfo = false
     'Uncategorized',  # 0
     'Conference paper',  # 1
     'Journal article',  # 2
-    'Manuscript',  # 3
+    'Working Paper',  # 3
     'Report',  # 4
     'Book',  # 5
-    'Book section'  # 6
+    'Book chapter'  # 6
   ]
 
   # Configuration of publication pages.
@@ -225,7 +225,7 @@ enableGitInfo = false
   [[params.social]]
     icon = "envelope"
     icon_pack = "fa"
-    link = "mailto:test@example.org"
+    link = "mailto:andrew.m.engelhardt@vanderbilt.edu"
 
   #[[params.social]]
     #icon = "twitter"
@@ -271,10 +271,14 @@ enableGitInfo = false
   #url = "#posts"
   #weight = 3
 
+#[[menu.main]]
+ # name = "Projects"
+#  url = "#projects"
+ # weight = 4
 [[menu.main]]
-  name = "Projects"
-  url = "#projects"
-  weight = 4
+name = "Data"
+url = "#data"
+weight = 4
 
 [[menu.main]]
   name = "Teaching"
