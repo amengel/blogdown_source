@@ -6,7 +6,7 @@
 baseurl = "https://amengel.github.io/"
 #baseurl = "/"
 
-#publishDir = "../amengel.github.io/"
+#publishDir = "/users/ame/documents/git/amengel.github.io/"
 
 # Title of your site
 title = "Andrew M. Engelhardt"
